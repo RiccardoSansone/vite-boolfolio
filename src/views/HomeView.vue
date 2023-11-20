@@ -39,7 +39,7 @@ export default {
         <h2>{{ project.title }}</h2>
         <p>{{ project.description }}</p>
         <small class="mb-4">{{ project.authors }}</small>
-        <router-link :to="{ name: 'project', params: { id: project.id } }"><i class="fa-regular fa-eye fa-xl"></i></router-link>
+        <router-link :to="{ name: 'project', params: { id: project.id } }" class="text-warning"><i class="fa-regular fa-eye fa-xl"></i></router-link>
       </div>
     </div>
 
