@@ -29,7 +29,7 @@ export default {
     
   <div id="app">
 
-    <router-link to="/">Prova</router-link>
+    <!-- <router-link to="/">Prova</router-link> -->
 
 
     <div class="container d-flex flex-wrap gap-2 justify-content-center mt-5 mb-5">
