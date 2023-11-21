@@ -58,26 +58,33 @@ export default {
   </main>
 
   <footer class="py-5 footer_bg text-light">
-    <div class="container">
-      <div class="row gap-3">
+    <div class="container d-flex justify-content-center">
+      <div class="row gap-5">
         <div class="col">
-          <h3 class="footer_item">Lorem.</h3>
-          <ul class="list-unstyled">
-            <li><a class="text-decoration-none text-light" href="#">Lorem</a></li>
-            <li><a class="text-decoration-none text-light" href="#">Lorem</a></li>
-            <li><a class="text-decoration-none text-light" href="#">Lorem</a></li>
-            <li><a class="text-decoration-none text-light" href="#">Lorem</a></li>
-            <li><a class="text-decoration-none text-light" href="#">Lorem</a></li>
+          <h3 class="footer_item">Technologies</h3>
+          <ul class="list-unstyled d-flex gap-2">
+            <li><a class="text-decoration-none text-light" href="#"><i class="fa-brands fa-2x fa-html5"></i></a></li>
+            <li><a class="text-decoration-none text-light" href="#"><i class="fa-brands fa-2x fa-css3-alt"></i></a></li>
+            <li><a class="text-decoration-none text-light" href="#"><i class="fa-brands fa-2x fa-sass"></i></a></li>
+            <li><a class="text-decoration-none text-light" href="#"><i class="fa-brands fa-2x fa-js"></i></a></li>
+            <li><a class="text-decoration-none text-light" href="#"><i class="fa-brands fa-2x fa-php"></i></a></li>
           </ul>
         </div>
         <div class="col">
-          <h3 class="footer_item">Deserunt?</h3>
-          <ul class="list-unstyled">
-            <li><a class="text-decoration-none text-light" href="#">Lorem</a></li>
-            <li><a class="text-decoration-none text-light" href="#">Lorem</a></li>
-            <li><a class="text-decoration-none text-light" href="#">Lorem</a></li>
-            <li><a class="text-decoration-none text-light" href="#">Lorem</a></li>
-            <li><a class="text-decoration-none text-light" href="#">Lorem</a></li>
+          <h3 class="footer_item">Frameworks</h3>
+          <ul class="list-unstyled d-flex gap-4">
+            <li><a class="text-decoration-none text-light" href="#"><i class="fa-brands fa-2x fa-bootstrap"></i></a></li>
+            <li><a class="text-decoration-none text-light" href="#"><i class="fa-brands fa-2x fa-vuejs"></i></a></li>
+            <li><a class="text-decoration-none text-light" href="#"><i class="fa-brands fa-2x fa-laravel"></i></a></li>
+          </ul>
+        </div>
+        <div class="col">
+          <h3 class="footer_item">Tools</h3>
+          <ul class="list-unstyled d-flex gap-2">
+            <li><a class="text-decoration-none text-light" href="#"><i class="fa-brands fa-2x  fa-node"></i></a></li>
+            <li><a class="text-decoration-none text-light" href="#"><i class="fa-brands fa-2x  fa-git-alt"></i></a></li>
+            <li><a class="text-decoration-none text-light" href="#"><i class="fa-brands fa-2x  fa-github"></i></a></li>
+            <li><a class="text-decoration-none text-light" href="#"><i class="fa-solid  fa-2x fa-database"></i></a></li>
           </ul>
         </div>
       </div>

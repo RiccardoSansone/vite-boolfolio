@@ -17,7 +17,11 @@ export default {
     .get(url)
     .then(response=> {
       console.log(response);
-      this.projects = response.data.result;
+      if(response.data.success){
+        this.projects = response.data.result;
+      } else {
+        this.$router.push({name:"NotFound"});
+      }
     })
     .catch(err => {
       console.log(err.message);
