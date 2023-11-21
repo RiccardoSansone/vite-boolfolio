@@ -1,1 +1,21 @@
-@use "../node_modules/bootstrap/scss/bootstrap.scss"
+@use "../node_modules/bootstrap/scss/bootstrap.scss";
+
+
+.bg{
+    background-color: #283044;
+}
+.body_bg{
+    background-color: #ebf5ee;
+}
+.item{
+    color: #78a1bb;
+}
+.footer_bg{
+    background-color: #78a1bb;
+}
+.card_bg{
+    background-color: #f7f0f0;
+}
+.footer_item{
+    color: #283044;
+}

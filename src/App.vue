@@ -9,9 +9,9 @@ export default {
 <template>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <header>
-    <nav class="navbar navbar-expand-sm navbar-dark bg-dark p-3 shadow">
+    <nav class="navbar navbar-expand-sm navbar-dark bg p-3 shadow">
       <div class="container">
-        <a class="navbar-brand text-warning" href="#">MyPortfolio</a>
+        <a class="navbar-brand" href="#">MyPortfolio</a>
         <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"
           aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -23,18 +23,18 @@ export default {
                   class="visually-hidden">(current)</span></router-link>
             </li>
             <li class="nav-item">
-              <router-link class="nav-link" to="/about">About</router-link>
+              <router-link class="nav-link" to="/projects">Projects</router-link>
             </li>
 
             <li class="nav-item">
-              <router-link class="nav-link" to="/blog">Blog</router-link>
+              <router-link class="nav-link" to="/about">About Me</router-link>
             </li>
             <li class="nav-item">
               <router-link class="nav-link" to="/contacts">Contacts</router-link>
             </li>
           </ul>
           <div class="admin">
-            <a href="http://127.0.0.1:8000/admin" class="btn text-light" target="__blank">
+            <a href="http://127.0.0.1:8000/admin" class="btn text-primary" target="__blank">
               Admin <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                 class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
                 <path fill-rule="evenodd"
@@ -51,17 +51,17 @@ export default {
 
   </header>
 
-  <main class="py-4 bg-body-tertiary">
+  <main class="py-4 body_bg">
 
     <router-view></router-view>
 
   </main>
 
-  <footer class="py-5 bg-dark text-light">
+  <footer class="py-5 footer_bg text-light">
     <div class="container">
-      <div class="row">
+      <div class="row gap-3">
         <div class="col">
-          <h3 class="text-warning">Lorem.</h3>
+          <h3 class="footer_item">Lorem.</h3>
           <ul class="list-unstyled">
             <li><a class="text-decoration-none text-light" href="#">Lorem</a></li>
             <li><a class="text-decoration-none text-light" href="#">Lorem</a></li>
@@ -71,17 +71,7 @@ export default {
           </ul>
         </div>
         <div class="col">
-          <h3 class="text-warning">Deserunt?</h3>
-          <ul class="list-unstyled">
-            <li><a class="text-decoration-none text-light" href="#">Lorem</a></li>
-            <li><a class="text-decoration-none text-light" href="#">Lorem</a></li>
-            <li><a class="text-decoration-none text-light" href="#">Lorem</a></li>
-            <li><a class="text-decoration-none text-light" href="#">Lorem</a></li>
-            <li><a class="text-decoration-none text-light" href="#">Lorem</a></li>
-          </ul>
-        </div>
-        <div class="col">
-          <h3 class="text-warning">Voluptatibus.</h3>
+          <h3 class="footer_item">Deserunt?</h3>
           <ul class="list-unstyled">
             <li><a class="text-decoration-none text-light" href="#">Lorem</a></li>
             <li><a class="text-decoration-none text-light" href="#">Lorem</a></li>
