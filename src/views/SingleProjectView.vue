@@ -33,12 +33,12 @@ export default {
 <template>
   <div id="app">
 
-    <h1 class="text-center item mt-5">{{ projects.title }}</h1>
+    <h1 class="text-center footer_item mt-5">{{ projects.title }}</h1>
 
     <div class="container d-flex flex-wrap gap-2 justify-content-center mb-5">
       <div class="card mt-3 col-md-3 p-2 shadow card_bg">
         <img class="img_300px" :src="`http://localhost:8000/storage/${projects.thumb}`" alt="">
-        <h2 class="item">{{ projects.title }}</h2>
+        <h2 class="footer_item">{{ projects.title }}</h2>
         <p>{{ projects.description }}</p>
         <small>{{ projects.authors }}</small>
         <div class="d-flex justify-content-between pt-2">
